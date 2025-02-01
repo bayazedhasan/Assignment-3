@@ -31,7 +31,7 @@
   <body>
     <header class="">
       <nav class="bg-[#FFF9F4]">
-      <div class="flex items-center justify-between font-sora py-2 mx-[140px]">
+      <div class="flex items-center justify-between font-sora py-2 lg:mx-[140px]">
         <div class="flex items-center gap-2">
           <img src="assets/logo-header.png" alt="" />
           <h3 class="text-[26px]">
@@ -83,12 +83,12 @@
         </div>
     </div>
       </nav>
-      <div class="mx-[140px] justify-center items-center pt-[140px]">
+      <div class="lg:mx-[140px] lg:justify-center lg:items-center lg:pt-[100px] animate-pulse">
         <div class="font-sora relative">
           <h1 class="font-adlam-display text-[40px] text-[#111111]">
             Pamper Your Pet, <br />Because They Deserve <br />the Bes
           </h1>
-          <p class="text-[#414040] text-[16px] pb-2 w-[672px] h-[72px]">
+          <p class="text-[#414040] lg:text-[16px] pb-2 lg:w-[672px] lg:h-[72px]">
             Discover a world of treats, toys, and essentials handpicked for your
             furry friends. Shop now and make tails wag with joy!
           </p>
@@ -98,17 +98,36 @@
             Find a pet
           </button>
         </div>
-        <div class="mt-[-400px] items-end justify-end">
+        <div class="lg:mt-[-400px] lg:items-end justify-end">
           <img src="assets/cat-big.png" alt="" />
+        </div>
+      </div>
+      <div class="lg:mx-[140px] mt-[100px]">
+        <h1 class="font-adlam-display text-3xl">Pet Registration</h1>
+      </div>
+      <div class="lg:mx-[140px] mt-[80px] lg:flex justify-between items-center">
+        <div>
+          
+          <h3 class="font-adlam-display text-[20px] pb-[20px] ">You are required to register your <br>cat or dog.</h3>
+          <p class="font-sora text-[12px] w-[380px] text-[#414040] pb-[30px]">
+            The permanent identification and lifetime registration system is a central database of pet ownership. The system assists us in returning lost and injured animals to their owners.</p>
+            <button
+            class="border-[#FFDC26] bg-[#FFDC26] border rounded-lg w-[159px] h-[45px] font-sora"
+          >
+            Register
+          </button>
+        </div>
+        <div>
+          <img class="rounded-[10px]" src="assets/pets.jpg" alt="">
         </div>
       </div>
     </header>
     <main>
       <div>
-        <div class="px-[140px] pt-[80px] mb-8">
+        <div class="lg:px-[140px] pt-[80px] mb-8">
           <h1 class="font-adlam-display text-3xl">Browse By Categories</h1>
         </div>
-        <div class="px-[140px] flex justify-evenly items-center">
+        <div class="lg:px-[140px] lg:flex lg:justify-evenly items-center ">
           <div class="bg-[#F9DF8A] w-[140px] h-[180px] gap-6 rounded-[10px]">
             <div class="grid justify-center items-center pt-7">
               <div class="bg-white rounded-full w-16 h-16">
@@ -165,14 +184,14 @@
           </div>
         </div>
       </div>
-      <section class="bg-[#FFF9F4] w-auto h-[700px] mt-[100px]">
-        <div class="mx-[140px] pt-[140px]">
+      <section class="bg-[#FFF9F4] lg:w-auto lg:h-[700px] mt-[100px]">
+        <div class="lg:mx-[140px] pt-[140px]">
           <h1 class="font-adlam-display text-3xl text-[#111111]">
             Trending Pet Products
           </h1>
         </div>
-        <div class="mx-[140px] mt-[48px] grid grid-cols-4
-         gap-20 mr-[140px]">
+        <div class="lg:mx-[140px] mt-[48px] lg:grid lg:grid-cols-4
+         lg:gap-20 lg:mr-[140px]">
           <div class="row-span-3 bg-[#F9DF8A] w-[280px] h-[380px] rounded-[10px]">
             <div class="pt-15 pl-7 pr-2">
                 <h2 class="font-adlam-display text-[24px] pb-3">T-Shirt For Dogs</h2>
@@ -331,19 +350,19 @@
           </div>
         </div>
       </section>
-      <section class="mx-[140px] mt-[50px]">
+      <section class="lg:mx-[140px] mt-[50px]">
         <div class="mb-[30px]">
             <h1 class="font-adlam-display text-3xl text-[#111111]">Everyday low Price</h1>
         </div>
-        <div class="flex gap-[66px] justify-around">
-            <div class="flex items-center bg-linear-to-r from-[#F8CCFB] to-[#ACD2FD] w-[550px] h-[320px] rounded-[10px]">
+        <div class="lg:flex gap-[66px] lg:justify-around">
+            <div class="flex items-center bg-linear-to-r from-[#F8CCFB] to-[#ACD2FD] lg:w-[550px] lg:h-[320px] rounded-[10px]">
                 <div class="pl-[80px] ">
                     <p class="font-sora text-[12px]">Under Price</p>
                 <h3 class="font-adlam-display text-[16px]">Pet Grooming Mitt</h3>
                 <p class="font-adlam-display text-[12px] text-[#FFFFFF]">(Easy Hair Removal)</p>
                 <b class="font-adlam-display text-[20px]">$7.99</b>
                 </div>
-                <div class="w-[280px] pt-2">
+                <div class="lg:w-[280px] pt-2">
                     <img src="assets/cute-dog-mid.png" alt="">
                 </div>
             </div>
@@ -359,8 +378,8 @@
             </div>
         </div>
       </section>
-      <section class="bg-[#FFF9F4] h-[400px] mx-[140px] mt-[100px] rounded-[10px] relative">
-        <div class="flex justify-around items-center">
+      <section class="bg-[#FFF9F4] lg:h-[400px] lg:mx-[140px] mt-[100px] rounded-[10px] relative">
+        <div class="lg:flex justify-around items-center">
             <div class="w-[280px] pt-[40px]">
                 <img src="assets/cute-pet-mid.png" alt="">
 
@@ -379,9 +398,9 @@
 
       </section>
     </main>
-    <footer class="bg-[#FFDC2680] min-w-max h-[554px] mt-[-200px]
+    <footer class="bg-[#FFDC2680] lg:min-w-max lg:h-[554px] mt-[-200px]
     ">
-    <div class=" flex justify-between items-end mx-[140px] ">
+    <div class=" flex justify-between items-end lg:mx-[140px] ">
         <div class="mt-[350px]">
             <div class="flex items-center">
                 <img src="assets/logo-footer.png" alt="">
